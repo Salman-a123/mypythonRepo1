@@ -1,6 +1,4 @@
-# our base image
-FROM alpine:3.5
-
+FROM python:3.8-slim-buster
 # Install python and pip
 RUN apk add --update py2-pip
 
